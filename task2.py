@@ -1,7 +1,7 @@
 import random
 import math
 import statistics
-numbers = [random.randint(1, 100) for _ in range(100)]
+numbers = [random.randint(1, 100) for i in range(100)]
 mean_value = statistics.mean(numbers)
 median_value = statistics.median(numbers)
 stdev_value = statistics.stdev(numbers)
